@@ -1,0 +1,85 @@
+
+
+.body {
+
+}
+
+/* global style */
+.responsive-image {
+  height: auto;
+  max-width: 100%;
+}
+
+.text-header {
+  font-size: 6vw;
+}
+
+
+/* end global style */
+
+.header {
+  margin-bottom: 20px;
+  font-family:  sans-serif, Helvetica;
+}
+
+.food {
+  margin-top:20px;
+}
+.content,
+.food-header,
+.food-images {
+  text-align: center;
+  font-family: sans-serif, Helvetica;
+
+}
+
+
+/* Apple iPad responsive */
+
+@media screen and (min-width:768px) {
+  .header {
+    margin:auto;
+    text-align:left;
+    justify-content: space-between;
+  }
+  .text-header {
+    text-align:center;
+  }
+  .header, .food-main {
+    display: flex;
+    max-width: 1050px;
+    margin:auto;
+  }
+  .food-images {
+    padding:1vw;
+  }
+  .header-content {
+    max-width: 1050px;
+    margin-bottom: 20px;
+  }
+  .content-header {
+    margin-left: auto;
+  }
+
+}
+
+
+/* larger desktops */
+@media screen and (min-width:1080px) {
+
+}
+
+
+
+
+/* Mobile Google Nexus 5 responsive */
+
+@media screen and (min-width:460px) {
+  .text-header {
+    font-size: 4vw;
+  }
+  .images {
+    width:100%;
+  }
+
+}
