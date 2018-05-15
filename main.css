@@ -46,7 +46,7 @@
     text-align:center;
   }
   .header, .food-main {
-    display: flex;
+    text-align:center;
     max-width: 1050px;
     margin:auto;
   }
@@ -64,12 +64,15 @@
 }
 
 
-/* larger desktops */
+/* desktops */
 @media screen and (min-width:1080px) {
 
 }
 
-
+.header, .food-main {
+    display: flex;
+    max-width: 1050px;
+    margin:auto;
 
 
 /* Mobile Google Nexus 5 responsive */
